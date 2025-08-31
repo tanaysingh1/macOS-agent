@@ -1,0 +1,30 @@
+# macOS Accessibility API UI Tree System Requirements
+
+# Core macOS frameworks (built into macOS)
+# - ApplicationServices (part of macOS)
+# - Cocoa (part of macOS)
+# - Foundation (part of macOS)
+# - CoreFoundation (part of macOS)
+
+# Python standard library modules used:
+# - asyncio
+# - logging 
+# - os
+# - subprocess
+# - gc
+# - traceback
+# - dataclasses
+# - typing
+# - functools
+
+# Note: This project uses only macOS built-in frameworks and Python standard library.
+# No additional pip packages are required.
+
+# Python version requirement: 3.7+
+# macOS version requirement: 10.9+
+
+# To use this system:
+# 1. Ensure you're running on macOS
+# 2. Enable Accessibility permissions for your terminal/IDE in:
+#    System Preferences > Security & Privacy > Privacy > Accessibility
+# 3. Run the tester: python mac_ui_tester.py
